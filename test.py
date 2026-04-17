@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 from pyomo.environ import *
 
 # -----------------------------
@@ -172,4 +173,22 @@ for t in model.T:
     print("------")
 
     
+# ----------------------------
+# 7. VISUALIZATION
+# ----------------------------
 
+hours_plot = demand_A_data["hour"]
+demand_A_plot = demand_A_data["demand"]
+demand_B_plot = demand_B_data["demand"]
+
+plt.figure(figsize=(10, 5))
+plt.plot(hours_plot, demand_A_plot, marker="o", label="Node A Demand")
+plt.plot(hours_plot, demand_B_plot, marker="o", label="Node B Demand")
+plt.xlabel("Hour")
+plt.ylabel("Demand")
+plt.title("Hourly Electricity Demand")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.savefig("demand_plot.png")
+plt.show()
