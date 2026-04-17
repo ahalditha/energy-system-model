@@ -79,15 +79,15 @@ Minimize:
 Sample results from the model:
 
 Hour 10:
-Flow A→B: 28.0  
-A Wind: 74.48  
-A Gas: 0.0  
-B Wind: 0.0  
+- Flow A→B: 28.0  
+- A Wind: 74.48  
+- A Gas: 0.0  
+- B Wind: 0.0  
 
 Hour 15:
-Flow A→B: 22.0  
-A Wind: 70.56  
-A Gas: 0.0  
+- Flow A→B: 22.0  
+- A Wind: 70.56  
+- A Gas: 0.0  
 ---
 
 ## 👩‍💻 Author
