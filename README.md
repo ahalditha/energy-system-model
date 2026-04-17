@@ -21,7 +21,7 @@ It minimizes total system cost while meeting demand constraints.
 
 ## 📊 Data Sources
 
-- Demand data: manually extracted and structured from reference study
+- Demand data: Demand data: manually extracted and structured from a reference academic energy system study
 - Wind and solar profiles: representative capacity factor time series
 - Time resolution: hourly (24-hour simplified case)
 
@@ -65,11 +65,7 @@ Minimize:
 
 2. Run the model:
    python test.py
-## 📈 Example Output
 
-- Optimal capacities for each energy source
-- Power flow between nodes
-- Hourly dispatch results
 
 ## 💡 Future Improvements
 
@@ -78,6 +74,20 @@ Minimize:
 - Include emissions constraints
 - Add visualization of results
 
+## 📈 Example Output
+
+Sample results from the model:
+
+Hour 10:
+Flow A→B: 28.0  
+A Wind: 74.48  
+A Gas: 0.0  
+B Wind: 0.0  
+
+Hour 15:
+Flow A→B: 22.0  
+A Wind: 70.56  
+A Gas: 0.0  
 ---
 
 ## 👩‍💻 Author
