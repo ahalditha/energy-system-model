@@ -89,6 +89,17 @@ Hour 15:
 - A Wind: 70.56  
 - A Gas: 0.0  
 ---
+## 🌍 Real-World Relevance
+
+This model demonstrates how optimization techniques are applied in real-world energy system planning.
+
+It reflects key challenges in the energy transition, such as:
+- Balancing variability in renewable energy (wind and solar)
+- Meeting hourly electricity demand
+- Optimizing power transmission between regions
+- Minimizing system costs under operational constraints
+
+Such models are widely used in energy system analysis, sustainability studies, and policy planning.
 
 ## 👩‍💻 Author
 
